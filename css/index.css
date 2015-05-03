@@ -1,0 +1,63 @@
+@font-face {
+    font-family:Regular;
+    src: url("font/MyriadPro-Regular.otf");
+}
+
+@font-face {
+    font-family:Bold;
+    src: url("font/MyriadPro-Bold.otf");
+}
+
+@font-face {
+    font-family:Semibold;
+    src: url("font/MyriadPro-Semibold.otf");
+}
+
+body{
+	font-family:'Regular'; 
+}
+
+.style1{
+	font-family:'Bold';
+	font-size:30pt;
+	color:#2980b9;
+	padding-top: 10%;
+	padding-bottom:5%;
+}
+
+.style2{
+	font-family:'Semibold';
+	font-size:19pt;
+	color:#2c3e50;
+}
+
+.style3{
+	font-family:'Regular';
+	font-size:12pt;
+	color:#2980b9;
+}
+
+#landing{
+	background-color:blue;
+}
+
+#tab1{
+	width:75%;
+	margin:0 0px 0 166px;
+}
+
+.carousel-inner > .item {
+	background-color:#fff;
+	height:200px;
+}
+
+.carousel-indicators li{
+	border:0px;
+	background-color:#2980b9;
+	left:5%;
+}
+
+.carousel-indicators .active{
+	border:0px;
+	background-color:#2980b9;
+}
